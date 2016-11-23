@@ -75,6 +75,7 @@ public class GTekRayTrigger : MonoBehaviour {
     public int checkEveryXFrames = 1;
     public bool enableTracking = true;
     private Color debugColor = Color.white;
+    public LineRenderer lineRenderer;
 
     void Update()
     {
@@ -91,7 +92,17 @@ public class GTekRayTrigger : MonoBehaviour {
     void OnTrack()
     {
         List<Vector3> triggeredSpots = new List<Vector3>();
-        
+
+        if (showDebug)
+        {
+            lineRenderer.enabled = true;
+            lineRenderer.SetPositions(new Vector3[] { });
+        }
+        else
+        {
+            lineRenderer.enabled = false;
+        }
+
         // if GTek is active, use it's data
         if (GTekActive)
         {
@@ -104,23 +115,15 @@ public class GTekRayTrigger : MonoBehaviour {
                     {
                         Vector3 spot = new Vector3(m_aTrackerPoints[i].x + origin.x, m_aTrackerPoints[i].y + origin.y, 0);
                         triggeredSpots.Add(spot);
-
-                        if (showDebug)
-                        {
-                            if (triggeredSpots.Count > 1)
-                            {
-                                Debug.DrawLine(triggeredSpots[triggeredSpots.Count - 2], triggeredSpots[triggeredSpots.Count - 1], debugColor);
-                            }
-                        }
                     }
                 }
-
-                if (showDebug && triggeredSpots.Count > 1)
-                {
-                    Debug.DrawLine(triggeredSpots[0], triggeredSpots[triggeredSpots.Count - 1], debugColor);
-                }
-
                 TriggerSpot(triggeredSpots);
+            }
+
+            if (showDebug)
+            {
+                lineRenderer.SetVertexCount(triggeredSpots.Count);
+                lineRenderer.SetPositions(triggeredSpots.ToArray());
             }
         }
         // if GTek isn't active, emulate the effect in Unity
@@ -139,14 +142,17 @@ public class GTekRayTrigger : MonoBehaviour {
                     circlePoint.x = Mathf.Sin(Mathf.Deg2Rad * angle) * radius;
                     circlePoint.y = Mathf.Cos(Mathf.Deg2Rad * angle) * radius;
                     triggeredSpots.Add(circlePoint + mousePos);
-                    if (triggeredSpots.Count > 1)
-                    {
-                        Debug.DrawLine(triggeredSpots[triggeredSpots.Count - 2], triggeredSpots[triggeredSpots.Count - 1], debugColor);
-                    }
+                    triggeredSpots[triggeredSpots.Count - 1] = new Vector3(triggeredSpots[triggeredSpots.Count - 1].x, triggeredSpots[triggeredSpots.Count - 1].y, 0.1f);
                     angle += (360f / numSegments);
                 }
 
                 TriggerSpot(triggeredSpots);
+            }
+
+            if (showDebug)
+            {
+                lineRenderer.SetVertexCount(triggeredSpots.Count);
+                lineRenderer.SetPositions(triggeredSpots.ToArray());
             }
         }
     }
@@ -161,12 +167,12 @@ public class GTekRayTrigger : MonoBehaviour {
         {
             if (hitObject)
             {
-                debugColor = Color.blue;
+                lineRenderer.SetColors(Color.blue, Color.blue);
                 GUILayout.Label(" Hitting: " + hitObject.name);
             }
             else
             {
-                debugColor = Color.white;
+                lineRenderer.SetColors(Color.white, Color.white);
                 GUILayout.Label("None");
             }
 
