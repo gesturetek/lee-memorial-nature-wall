@@ -107,8 +107,6 @@ public class GTekRayTrigger : MonoBehaviour {
 
                         if (showDebug)
                         {
-                            triggeredSpots.Add(spot);
-
                             if (triggeredSpots.Count > 1)
                             {
                                 Debug.DrawLine(triggeredSpots[triggeredSpots.Count - 2], triggeredSpots[triggeredSpots.Count - 1], debugColor);
