@@ -113,24 +113,23 @@ public class GTekRayTrigger : MonoBehaviour {
                     trackerPoints = m_uNumTrackerPoints;
                     if (i < m_uNumTrackerPoints)
                     {
-                        Vector3 spot = new Vector3(m_aTrackerPoints[i].x + origin.x, m_aTrackerPoints[i].y + origin.y, 0);
+                        Vector3 spot = new Vector3(m_aTrackerPoints[i].x + origin.x, m_aTrackerPoints[i].y + origin.y, 0.1f);
                         triggeredSpots.Add(spot);
                     }
                 }
                 TriggerSpot(triggeredSpots);
-            }
-
-            if (showDebug)
-            {
-                lineRenderer.SetVertexCount(triggeredSpots.Count);
-                lineRenderer.SetPositions(triggeredSpots.ToArray());
+                if (showDebug)
+                {
+                    lineRenderer.SetVertexCount(triggeredSpots.Count);
+                    lineRenderer.SetPositions(triggeredSpots.ToArray());
+                }
             }
         }
         // if GTek isn't active, emulate the effect in Unity
         else
         {
-            //if (Input.GetMouseButton(0))
-            //{
+            if (Input.GetMouseButton(0))
+            {
                 Vector2 mousePos = GTekCamera.ScreenToWorldPoint(Input.mousePosition);
                 float radius = 0.1f;
                 int numSegments = 10;
@@ -147,7 +146,7 @@ public class GTekRayTrigger : MonoBehaviour {
                 }
 
                 TriggerSpot(triggeredSpots);
-            //}
+            }
 
             if (showDebug)
             {
