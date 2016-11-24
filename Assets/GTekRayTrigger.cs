@@ -71,7 +71,7 @@ public class GTekRayTrigger : MonoBehaviour {
 
     #region Tracking
 
-    public int maxSamples = 100;
+    public int maxSamples = 1000;
     public int checkEveryXFrames = 1;
     public bool enableTracking = true;
     private Color debugColor = Color.white;
@@ -129,8 +129,8 @@ public class GTekRayTrigger : MonoBehaviour {
         // if GTek isn't active, emulate the effect in Unity
         else
         {
-            if (Input.GetMouseButton(0))
-            {
+            //if (Input.GetMouseButton(0))
+            //{
                 Vector2 mousePos = GTekCamera.ScreenToWorldPoint(Input.mousePosition);
                 float radius = 0.1f;
                 int numSegments = 10;
@@ -147,7 +147,7 @@ public class GTekRayTrigger : MonoBehaviour {
                 }
 
                 TriggerSpot(triggeredSpots);
-            }
+            //}
 
             if (showDebug)
             {
