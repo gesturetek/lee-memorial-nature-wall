@@ -194,7 +194,11 @@ public class GTekRayTrigger : MonoBehaviour {
             Collider2D p = Physics2D.OverlapPoint(overlapPoint);
             if (p)
             {
-                hitObject = p.gameObject;
+                TriggerZone tZ = p.gameObject.GetComponent<TriggerZone>();
+                if (tZ)
+                {
+                    tZ.OnTriggerZone();
+                }
                 break;
             }
             else
