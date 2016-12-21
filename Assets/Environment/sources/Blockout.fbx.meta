@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 7df30a015ed5885469f343b0716dae07
+timeCreated: 1482332944
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cabbage_Palm_Foliage
+    100004: Cabbage_Palm_Trunk
+    100006: Close_Bushes
+    100008: Environment
+    100010: Far_Shore
+    100012: Left_Shore
+    100014: Live_Oak_Foliage
+    100016: Live_Oak_Trunk
+    100018: Log
+    100020: Reference_Plane
+    100022: Right_Shore
+    100024: Sky_Clouds
+    100026: Underwater_Ground
+    100028: Water_Surface
+    100030: Separator_PLane
+    100032: CameraBox
+    100034: RightFarTrees
+    100036: Far_Back
+    100038: Guides1
+    100040: Left_Side
+    100042: Right_Side
+    100044: Water
+    400000: //RootNode
+    400002: Cabbage_Palm_Foliage
+    400004: Cabbage_Palm_Trunk
+    400006: Close_Bushes
+    400008: Environment
+    400010: Far_Shore
+    400012: Left_Shore
+    400014: Live_Oak_Foliage
+    400016: Live_Oak_Trunk
+    400018: Log
+    400020: Reference_Plane
+    400022: Right_Shore
+    400024: Sky_Clouds
+    400026: Underwater_Ground
+    400028: Water_Surface
+    400030: Separator_PLane
+    400032: CameraBox
+    400034: RightFarTrees
+    400036: Far_Back
+    400038: Guides1
+    400040: Left_Side
+    400042: Right_Side
+    400044: Water
+    2300000: Cabbage_Palm_Foliage
+    2300002: Cabbage_Palm_Trunk
+    2300004: Close_Bushes
+    2300006: Far_Shore
+    2300008: Left_Shore
+    2300010: Live_Oak_Foliage
+    2300012: Live_Oak_Trunk
+    2300014: Log
+    2300016: Reference_Plane
+    2300018: Right_Shore
+    2300020: Sky_Clouds
+    2300022: Underwater_Ground
+    2300024: Water_Surface
+    2300026: Separator_PLane
+    2300028: CameraBox
+    2300030: RightFarTrees
+    3300000: Cabbage_Palm_Foliage
+    3300002: Cabbage_Palm_Trunk
+    3300004: Close_Bushes
+    3300006: Far_Shore
+    3300008: Left_Shore
+    3300010: Live_Oak_Foliage
+    3300012: Live_Oak_Trunk
+    3300014: Log
+    3300016: Reference_Plane
+    3300018: Right_Shore
+    3300020: Sky_Clouds
+    3300022: Underwater_Ground
+    3300024: Water_Surface
+    3300026: Separator_PLane
+    3300028: CameraBox
+    3300030: RightFarTrees
+    4300000: Reference_Plane
+    4300002: Cabbage_Palm_Trunk
+    4300004: Close_Bushes
+    4300006: Log
+    4300008: Right_Shore
+    4300010: Live_Oak_Trunk
+    4300012: Live_Oak_Foliage
+    4300014: Far_Shore
+    4300016: Water_Surface
+    4300018: Left_Shore
+    4300020: Underwater_Ground
+    4300022: Sky_Clouds
+    4300024: Cabbage_Palm_Foliage
+    4300026: Separator_PLane
+    4300028: CameraBox
+    4300030: RightFarTrees
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

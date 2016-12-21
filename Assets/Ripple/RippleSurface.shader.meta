@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 741f720a53d16d04c9bac8db9d18a901
+timeCreated: 1481675550
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _RippleIn: {fileID: 2800000, guid: 88405404ba4d986459021a0b4b3321d4, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
