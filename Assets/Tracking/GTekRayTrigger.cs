@@ -9,6 +9,7 @@ public class GTekRayTrigger : MonoBehaviour {
 
     public bool GTekActive = false;
     private Camera GTekCamera;
+    public LayerMask layerMask;
     private const System.UInt32 MAX_POINTS = 33 * 1024;
     private const System.UInt32 MAX_POLYS = 1024;
     private const System.UInt32 WAIT_TIME = 1; // 1ms
@@ -93,14 +94,17 @@ public class GTekRayTrigger : MonoBehaviour {
     {
         List<Vector3> triggeredSpots = new List<Vector3>();
 
-        if (showDebug)
+        if (lineRenderer)
         {
-            lineRenderer.enabled = true;
-            lineRenderer.SetPositions(new Vector3[] { });
-        }
-        else
-        {
-            lineRenderer.enabled = false;
+            if (showDebug)
+            {
+                lineRenderer.enabled = true;
+                lineRenderer.SetPositions(new Vector3[] { });
+            }
+            else
+            {
+                lineRenderer.enabled = false;
+            }
         }
 
         // if GTek is active, use it's data
@@ -118,7 +122,7 @@ public class GTekRayTrigger : MonoBehaviour {
                     }
                 }
                 TriggerSpot(triggeredSpots);
-                if (showDebug)
+                if (showDebug && lineRenderer)
                 {
                     lineRenderer.SetVertexCount(triggeredSpots.Count);
                     lineRenderer.SetPositions(triggeredSpots.ToArray());
@@ -141,14 +145,14 @@ public class GTekRayTrigger : MonoBehaviour {
                     circlePoint.x = Mathf.Sin(Mathf.Deg2Rad * angle) * radius;
                     circlePoint.y = Mathf.Cos(Mathf.Deg2Rad * angle) * radius;
                     triggeredSpots.Add(circlePoint + mousePos);
-                    triggeredSpots[triggeredSpots.Count - 1] = new Vector3(triggeredSpots[triggeredSpots.Count - 1].x, triggeredSpots[triggeredSpots.Count - 1].y, 0.1f);
+                    triggeredSpots[triggeredSpots.Count - 1] = new Vector3(triggeredSpots[triggeredSpots.Count - 1].x, triggeredSpots[triggeredSpots.Count - 1].y, transform.position.z + 1);
                     angle += (360f / numSegments);
                 }
 
                 TriggerSpot(triggeredSpots);
             }
 
-            if (showDebug)
+            if (showDebug && lineRenderer)
             {
                 lineRenderer.SetVertexCount(triggeredSpots.Count);
                 lineRenderer.SetPositions(triggeredSpots.ToArray());
@@ -166,12 +170,18 @@ public class GTekRayTrigger : MonoBehaviour {
         {
             if (hitObject)
             {
-                lineRenderer.SetColors(Color.blue, Color.blue);
+                if (lineRenderer)
+                {
+                    lineRenderer.SetColors(Color.blue, Color.blue);
+                }
                 GUILayout.Label(" Hitting: " + hitObject.name);
             }
             else
             {
-                lineRenderer.SetColors(Color.white, Color.white);
+                if (lineRenderer)
+                {
+                    lineRenderer.SetColors(Color.white, Color.white);
+                }
                 GUILayout.Label("None");
             }
 
@@ -191,7 +201,7 @@ public class GTekRayTrigger : MonoBehaviour {
         foreach (Vector3 spot in spots)
         {
             Vector2 overlapPoint = new Vector2(spot.x, spot.y);
-            Collider2D p = Physics2D.OverlapPoint(overlapPoint);
+            Collider2D p = Physics2D.OverlapPoint(overlapPoint, layerMask.value);
             if (p)
             {
                 TriggerZone tZ = p.gameObject.GetComponent<TriggerZone>();
