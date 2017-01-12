@@ -4,17 +4,28 @@ using System.Collections;
 public class TriggerZoneAnimator : TriggerZone {
 
     public Animator animator;
+    public Transform testObject;
     public string triggerMessage = "Interact";
-    public float reTriggerDelay = 1;
-    private float lastTriggered = 0;
-
-    public override void OnTriggerZone()
+    
+    public override void OnInteract()
     {
-        if (Time.time > lastTriggered)
+        if (animator)
         {
-            base.OnTriggerZone();
             animator.SetTrigger(triggerMessage);
-            lastTriggered = Time.time + reTriggerDelay;
+        }
+        else if (testObject)
+        {
+            StartCoroutine(Spin());
+        }
+    }
+
+    IEnumerator Spin()
+    {
+        for (float i = 0; i < reTriggerDelay; i += Time.deltaTime)
+        {
+            testObject.Rotate(0, Time.deltaTime * 360, 0);
+            yield return null;
         }
     }
 }
+

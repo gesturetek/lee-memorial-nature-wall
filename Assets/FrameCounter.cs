@@ -4,11 +4,11 @@ using System.Collections;
 public class FrameCounter : MonoBehaviour {
 
     public float frameRate;
-
+    public int maxFrameRate = 60;
 
     private void Start()
     {
-        Application.targetFrameRate = 100;
+        Application.targetFrameRate = maxFrameRate;
     }
 
     void Update () {

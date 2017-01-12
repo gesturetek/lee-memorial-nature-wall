@@ -121,7 +121,7 @@ public class GTekRayTrigger : MonoBehaviour {
                         triggeredSpots.Add(spot);
                     }
                 }
-                TriggerSpot(triggeredSpots);
+                CheckGTekOverlapPositions(triggeredSpots);
                 if (showDebug && lineRenderer)
                 {
                     lineRenderer.SetVertexCount(triggeredSpots.Count);
@@ -135,7 +135,7 @@ public class GTekRayTrigger : MonoBehaviour {
             if (Input.GetMouseButton(0))
             {
                 Vector2 mousePos = GTekCamera.ScreenToWorldPoint(Input.mousePosition);
-                float radius = 0.1f;
+                float radius = 1f;
                 int numSegments = 10;
                 Vector2 circlePoint = Vector2.zero;
                 float angle = 20f;
@@ -149,7 +149,7 @@ public class GTekRayTrigger : MonoBehaviour {
                     angle += (360f / numSegments);
                 }
 
-                TriggerSpot(triggeredSpots);
+                CheckGTekOverlapPositions(triggeredSpots);
             }
 
             if (showDebug && lineRenderer)
@@ -196,7 +196,7 @@ public class GTekRayTrigger : MonoBehaviour {
         }
     }
 
-    void TriggerSpot(List<Vector3> spots)
+    void CheckGTekOverlapPositions(List<Vector3> spots)
     {
         foreach (Vector3 spot in spots)
         {
@@ -207,7 +207,8 @@ public class GTekRayTrigger : MonoBehaviour {
                 TriggerZone tZ = p.gameObject.GetComponent<TriggerZone>();
                 if (tZ)
                 {
-                    tZ.OnTriggerZone();
+                    Vector2 spot2D = new Vector2(spot.x, spot.y);
+                    tZ.OnTriggerZone(spot2D);
                 }
                 break;
             }
