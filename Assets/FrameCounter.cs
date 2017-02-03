@@ -5,6 +5,7 @@ public class FrameCounter : MonoBehaviour {
 
     public float frameRate;
     public int maxFrameRate = 60;
+    public GUIStyle guiStyle;
 
     private void Start()
     {
@@ -18,6 +19,6 @@ public class FrameCounter : MonoBehaviour {
 
     private void OnGUI()
     {
-        GUILayout.Label("Framerate: " + frameRate.ToString("00"));
+        GUILayout.Label("Framerate: " + frameRate.ToString("00"), guiStyle);
     }
 }
