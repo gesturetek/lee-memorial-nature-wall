@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 1d1980eee63b74a48bb5930e3300bd32
-timeCreated: 1484069089
+guid: f72dc40f4e4e7df4786e1afb3a631d7f
+timeCreated: 1484069090
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Woodpecker
+    4300000: FrogBody
     9500000: //RootNode
   materials:
     importMaterials: 0
