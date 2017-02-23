@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: e8de669ff45f1cc4ba66b211f37bcd8c
+timeCreated: 1487887008
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: C_BeakBase_JNT
+    100002: C_BeakEnd_JNT
+    100004: C_HeadIKHandle
+    100006: C_Hip_JNT
+    100008: C_Neck1_JNT
+    100010: C_Neck2_JNT
+    100012: C_Neck3_JNT
+    100014: C_Neck4_JNT
+    100016: C_Neck5_JNT
+    100018: C_Neck6_JNT
+    100020: C_Neck7_JNT
+    100022: C_SkullBase_JNT
+    100024: C_SkullMid_JNT
+    100026: C_TailBase_JNT
+    100028: C_TailEnd_JNT
+    100030: CTRL_Beak
+    100032: CTRL_Body
+    100034: CTRL_Flamingo
+    100036: CTRL_Head
+    100038: CTRL_L_Eye
+    100040: CTRL_L_EyelidLower
+    100042: CTRL_L_EyelidUpper
+    100044: CTRL_L_Foot
+    100046: CTRL_L_KneeAim
+    100048: CTRL_L_Toe
+    100050: CTRL_L_WingBase
+    100052: CTRL_L_WingMid
+    100054: CTRL_L_WingTip
+    100056: CTRL_Main
+    100058: CTRL_NeckAim
+    100060: CTRL_R_Eye
+    100062: CTRL_R_EyelidLower
+    100064: CTRL_R_EyelidUpper
+    100066: CTRL_R_Foot
+    100068: CTRL_R_KneeAim
+    100070: CTRL_R_Toe
+    100072: CTRL_R_WingBase
+    100074: CTRL_R_WingMid
+    100076: CTRL_R_WingTip
+    100078: CTRL_TailBase
+    100080: Environment_Reference_Empty2:NearShore
+    100082: Environment_Reference_Empty2:RightIsland
+    100084: //RootNode
+    100086: Flamingo_Body
+    100088: Flamingo_Eyelid_Lower_L
+    100090: Flamingo_Eyelid_Lower_R
+    100092: Flamingo_Eyelid_Upper_L
+    100094: Flamingo_Eyelid_Upper_R
+    100096: Flamingo_Mesh
+    100098: Flamingo_PupilL
+    100100: Flamingo_PupilR
+    100102: Flamingo_Wings
+    100104: GRP_HeadAim
+    100106: GRP_L_Eyelid
+    100108: GRP_L_KneeAim
+    100110: GRP_NeckAim
+    100112: GRP_R_Eyelid
+    100114: GRP_R_KneeAim
+    100116: L_Ankle_JNT
+    100118: L_Eye_JNT
+    100120: L_EyelidLower_JNT
+    100122: L_EyelidLowerEnd_JNT
+    100124: L_EyelidUpper_JNT
+    100126: L_EyelidUpperEnd_JNT
+    100128: L_Hip_JNT
+    100130: L_Knee_JNT
+    100132: L_Leg_IKHandle
+    100134: L_Toe_JNT
+    100136: L_ToeTip_JNT
+    100138: L_WingBase_JNT
+    100140: L_WingEnd_JNT
+    100142: L_WingMid_JNT
+    100144: L_WingTipEnd_JNT
+    100146: R_Ankle_JNT
+    100148: R_Eye_JNT
+    100150: R_EyelidLower_JNT
+    100152: R_EyelidLowerEnd_JNT
+    100154: R_EyelidUpper_JNT
+    100156: R_EyelidUpperEnd_JNT
+    100158: R_Hip_JNT
+    100160: R_Knee_JNT
+    100162: R_Leg_IKHandle
+    100164: R_Toe_JNT
+    100166: R_ToeTip_JNT
+    100168: R_WingBase_JNT
+    100170: R_WingEnd_JNT
+    100172: R_WingMid_JNT
+    100174: R_WingTipEnd_JNT
+    400000: C_BeakBase_JNT
+    400002: C_BeakEnd_JNT
+    400004: C_HeadIKHandle
+    400006: C_Hip_JNT
+    400008: C_Neck1_JNT
+    400010: C_Neck2_JNT
+    400012: C_Neck3_JNT
+    400014: C_Neck4_JNT
+    400016: C_Neck5_JNT
+    400018: C_Neck6_JNT
+    400020: C_Neck7_JNT
+    400022: C_SkullBase_JNT
+    400024: C_SkullMid_JNT
+    400026: C_TailBase_JNT
+    400028: C_TailEnd_JNT
+    400030: CTRL_Beak
+    400032: CTRL_Body
+    400034: CTRL_Flamingo
+    400036: CTRL_Head
+    400038: CTRL_L_Eye
+    400040: CTRL_L_EyelidLower
+    400042: CTRL_L_EyelidUpper
+    400044: CTRL_L_Foot
+    400046: CTRL_L_KneeAim
+    400048: CTRL_L_Toe
+    400050: CTRL_L_WingBase
+    400052: CTRL_L_WingMid
+    400054: CTRL_L_WingTip
+    400056: CTRL_Main
+    400058: CTRL_NeckAim
+    400060: CTRL_R_Eye
+    400062: CTRL_R_EyelidLower
+    400064: CTRL_R_EyelidUpper
+    400066: CTRL_R_Foot
+    400068: CTRL_R_KneeAim
+    400070: CTRL_R_Toe
+    400072: CTRL_R_WingBase
+    400074: CTRL_R_WingMid
+    400076: CTRL_R_WingTip
+    400078: CTRL_TailBase
+    400080: Environment_Reference_Empty2:NearShore
+    400082: Environment_Reference_Empty2:RightIsland
+    400084: //RootNode
+    400086: Flamingo_Body
+    400088: Flamingo_Eyelid_Lower_L
+    400090: Flamingo_Eyelid_Lower_R
+    400092: Flamingo_Eyelid_Upper_L
+    400094: Flamingo_Eyelid_Upper_R
+    400096: Flamingo_Mesh
+    400098: Flamingo_PupilL
+    400100: Flamingo_PupilR
+    400102: Flamingo_Wings
+    400104: GRP_HeadAim
+    400106: GRP_L_Eyelid
+    400108: GRP_L_KneeAim
+    400110: GRP_NeckAim
+    400112: GRP_R_Eyelid
+    400114: GRP_R_KneeAim
+    400116: L_Ankle_JNT
+    400118: L_Eye_JNT
+    400120: L_EyelidLower_JNT
+    400122: L_EyelidLowerEnd_JNT
+    400124: L_EyelidUpper_JNT
+    400126: L_EyelidUpperEnd_JNT
+    400128: L_Hip_JNT
+    400130: L_Knee_JNT
+    400132: L_Leg_IKHandle
+    400134: L_Toe_JNT
+    400136: L_ToeTip_JNT
+    400138: L_WingBase_JNT
+    400140: L_WingEnd_JNT
+    400142: L_WingMid_JNT
+    400144: L_WingTipEnd_JNT
+    400146: R_Ankle_JNT
+    400148: R_Eye_JNT
+    400150: R_EyelidLower_JNT
+    400152: R_EyelidLowerEnd_JNT
+    400154: R_EyelidUpper_JNT
+    400156: R_EyelidUpperEnd_JNT
+    400158: R_Hip_JNT
+    400160: R_Knee_JNT
+    400162: R_Leg_IKHandle
+    400164: R_Toe_JNT
+    400166: R_ToeTip_JNT
+    400168: R_WingBase_JNT
+    400170: R_WingEnd_JNT
+    400172: R_WingMid_JNT
+    400174: R_WingTipEnd_JNT
+    2300000: Environment_Reference_Empty2:NearShore
+    2300002: Environment_Reference_Empty2:RightIsland
+    3300000: Environment_Reference_Empty2:NearShore
+    3300002: Environment_Reference_Empty2:RightIsland
+    4300000: Flamingo_Wings
+    4300002: Flamingo_Body
+    4300004: Flamingo_PupilR
+    4300006: Flamingo_PupilL
+    4300008: Flamingo_Eyelid_Lower_R
+    4300010: Flamingo_Eyelid_Upper_R
+    4300012: Flamingo_Eyelid_Upper_L
+    4300014: Flamingo_Eyelid_Lower_L
+    4300016: Environment_Reference_Empty2:NearShore
+    4300018: Environment_Reference_Empty2:RightIsland
+    7400000: Idle
+    9500000: //RootNode
+    13700000: Flamingo_Body
+    13700002: Flamingo_Eyelid_Lower_L
+    13700004: Flamingo_Eyelid_Lower_R
+    13700006: Flamingo_Eyelid_Upper_L
+    13700008: Flamingo_Eyelid_Upper_R
+    13700010: Flamingo_PupilL
+    13700012: Flamingo_PupilR
+    13700014: Flamingo_Wings
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 1
+      lastFrame: 168
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CTRL_Flamingo
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/C_BeakBase_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/C_BeakBase_JNT/C_BeakEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_Eye_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_EyelidLower_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_EyelidLower_JNT/L_EyelidLowerEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_EyelidUpper_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_EyelidUpper_JNT/L_EyelidUpperEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_Eye_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_EyelidLower_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_EyelidLower_JNT/R_EyelidLowerEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_EyelidUpper_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_EyelidUpper_JNT/R_EyelidUpperEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_TailBase_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/C_TailBase_JNT/C_TailEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT/L_Knee_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT/L_Knee_JNT/L_Ankle_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT/L_Knee_JNT/L_Ankle_JNT/L_Toe_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT/L_Knee_JNT/L_Ankle_JNT/L_Toe_JNT/L_ToeTip_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/L_WingBase_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/L_WingBase_JNT/L_WingMid_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/L_WingBase_JNT/L_WingMid_JNT/L_WingEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/L_WingBase_JNT/L_WingMid_JNT/L_WingEnd_JNT/L_WingTipEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT/R_Knee_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT/R_Knee_JNT/R_Ankle_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT/R_Knee_JNT/R_Ankle_JNT/R_Toe_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT/R_Knee_JNT/R_Ankle_JNT/R_Toe_JNT/R_ToeTip_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/R_WingBase_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/R_WingBase_JNT/R_WingMid_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/R_WingBase_JNT/R_WingMid_JNT/R_WingEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/C_Hip_JNT/R_WingBase_JNT/R_WingMid_JNT/R_WingEnd_JNT/R_WingTipEnd_JNT
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/C_HeadIKHandle
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/CTRL_Beak
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/CTRL_L_Eye
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/CTRL_R_Eye
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_L_Eyelid
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_L_Eyelid/CTRL_L_EyelidLower
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_L_Eyelid/CTRL_L_EyelidUpper
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_R_Eyelid
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_R_Eyelid/CTRL_R_EyelidLower
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_R_Eyelid/CTRL_R_EyelidUpper
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_L_WingBase
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_L_WingBase/CTRL_L_WingMid
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_L_WingBase/CTRL_L_WingMid/CTRL_L_WingTip
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_R_WingBase
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_R_WingBase/CTRL_R_WingMid
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_R_WingBase/CTRL_R_WingMid/CTRL_R_WingTip
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_TailBase
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/GRP_HeadAim
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/GRP_NeckAim
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_Foot
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_Foot/CTRL_L_Toe
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_Foot/GRP_L_KneeAim
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_Foot/L_Leg_IKHandle
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_KneeAim
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_NeckAim
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_Foot
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_Foot/CTRL_R_Toe
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_Foot/GRP_R_KneeAim
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_Foot/R_Leg_IKHandle
+        weight: 1
+      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_KneeAim
+        weight: 1
+      - path: Environment_Reference_Empty2:NearShore
+        weight: 1
+      - path: Environment_Reference_Empty2:RightIsland
+        weight: 1
+      - path: Flamingo_Mesh
+        weight: 1
+      - path: Flamingo_Mesh/Flamingo_Body
+        weight: 1
+      - path: Flamingo_Mesh/Flamingo_Eyelid_Lower_L
+        weight: 1
+      - path: Flamingo_Mesh/Flamingo_Eyelid_Lower_R
+        weight: 1
+      - path: Flamingo_Mesh/Flamingo_Eyelid_Upper_L
+        weight: 1
+      - path: Flamingo_Mesh/Flamingo_Eyelid_Upper_R
+        weight: 1
+      - path: Flamingo_Mesh/Flamingo_PupilL
+        weight: 1
+      - path: Flamingo_Mesh/Flamingo_PupilR
+        weight: 1
+      - path: Flamingo_Mesh/Flamingo_Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
