@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e8de669ff45f1cc4ba66b211f37bcd8c
-timeCreated: 1487887008
+timeCreated: 1488298099
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -196,6 +196,7 @@ ModelImporter:
     4300016: Environment_Reference_Empty2:NearShore
     4300018: Environment_Reference_Empty2:RightIsland
     7400000: Idle
+    7400002: FlyAway
     9500000: //RootNode
     13700000: Flamingo_Body
     13700002: Flamingo_Eyelid_Lower_L
@@ -225,211 +226,7 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Idle
-      takeName: Idle
-      firstFrame: 1
-      lastFrame: 168
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: CTRL_Flamingo
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/C_BeakBase_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/C_BeakBase_JNT/C_BeakEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_Eye_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_EyelidLower_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_EyelidLower_JNT/L_EyelidLowerEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_EyelidUpper_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/L_EyelidUpper_JNT/L_EyelidUpperEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_Eye_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_EyelidLower_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_EyelidLower_JNT/R_EyelidLowerEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_EyelidUpper_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_Neck1_JNT/C_Neck2_JNT/C_Neck3_JNT/C_Neck4_JNT/C_Neck5_JNT/C_Neck6_JNT/C_Neck7_JNT/C_SkullBase_JNT/C_SkullMid_JNT/R_EyelidUpper_JNT/R_EyelidUpperEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_TailBase_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/C_TailBase_JNT/C_TailEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT/L_Knee_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT/L_Knee_JNT/L_Ankle_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT/L_Knee_JNT/L_Ankle_JNT/L_Toe_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/L_Hip_JNT/L_Knee_JNT/L_Ankle_JNT/L_Toe_JNT/L_ToeTip_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/L_WingBase_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/L_WingBase_JNT/L_WingMid_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/L_WingBase_JNT/L_WingMid_JNT/L_WingEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/L_WingBase_JNT/L_WingMid_JNT/L_WingEnd_JNT/L_WingTipEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT/R_Knee_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT/R_Knee_JNT/R_Ankle_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT/R_Knee_JNT/R_Ankle_JNT/R_Toe_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/R_Hip_JNT/R_Knee_JNT/R_Ankle_JNT/R_Toe_JNT/R_ToeTip_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/R_WingBase_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/R_WingBase_JNT/R_WingMid_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/R_WingBase_JNT/R_WingMid_JNT/R_WingEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/C_Hip_JNT/R_WingBase_JNT/R_WingMid_JNT/R_WingEnd_JNT/R_WingTipEnd_JNT
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/C_HeadIKHandle
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/CTRL_Beak
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/CTRL_L_Eye
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/CTRL_R_Eye
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_L_Eyelid
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_L_Eyelid/CTRL_L_EyelidLower
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_L_Eyelid/CTRL_L_EyelidUpper
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_R_Eyelid
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_R_Eyelid/CTRL_R_EyelidLower
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_Head/GRP_R_Eyelid/CTRL_R_EyelidUpper
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_L_WingBase
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_L_WingBase/CTRL_L_WingMid
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_L_WingBase/CTRL_L_WingMid/CTRL_L_WingTip
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_R_WingBase
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_R_WingBase/CTRL_R_WingMid
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_R_WingBase/CTRL_R_WingMid/CTRL_R_WingTip
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/CTRL_TailBase
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/GRP_HeadAim
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_Body/GRP_NeckAim
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_Foot
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_Foot/CTRL_L_Toe
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_Foot/GRP_L_KneeAim
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_Foot/L_Leg_IKHandle
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_L_KneeAim
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_NeckAim
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_Foot
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_Foot/CTRL_R_Toe
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_Foot/GRP_R_KneeAim
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_Foot/R_Leg_IKHandle
-        weight: 1
-      - path: CTRL_Flamingo/CTRL_Main/CTRL_R_KneeAim
-        weight: 1
-      - path: Environment_Reference_Empty2:NearShore
-        weight: 1
-      - path: Environment_Reference_Empty2:RightIsland
-        weight: 1
-      - path: Flamingo_Mesh
-        weight: 1
-      - path: Flamingo_Mesh/Flamingo_Body
-        weight: 1
-      - path: Flamingo_Mesh/Flamingo_Eyelid_Lower_L
-        weight: 1
-      - path: Flamingo_Mesh/Flamingo_Eyelid_Lower_R
-        weight: 1
-      - path: Flamingo_Mesh/Flamingo_Eyelid_Upper_L
-        weight: 1
-      - path: Flamingo_Mesh/Flamingo_Eyelid_Upper_R
-        weight: 1
-      - path: Flamingo_Mesh/Flamingo_PupilL
-        weight: 1
-      - path: Flamingo_Mesh/Flamingo_PupilR
-        weight: 1
-      - path: Flamingo_Mesh/Flamingo_Wings
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -449,8 +246,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 180
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0
