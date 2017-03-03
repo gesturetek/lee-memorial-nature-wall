@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 7c31c539636307e438bd2bc922301c8d
+timeCreated: 1486417544
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bream_01:Bream_01
+    100002: Circles
+    100004: control_Circle_3
+    100006: control_Circle_3_tangentConstraint1
+    100008: ControlObjects
+    100010: //RootNode
+    100012: Flow
+    100014: Flow_circle_0_0
+    100016: Flow_circle_0_0_tangentConstraint1
+    100018: Flow_circle_0_1
+    100020: Flow_circle_0_1_tangentConstraint1
+    100022: Flow_circle_0_2
+    100024: Flow_circle_0_2_tangentConstraint1
+    100026: Flow_circle_0_3
+    100028: Flow_circle_0_3_tangentConstraint1
+    100030: Flow_circle_0_4
+    100032: Flow_circle_0_4_tangentConstraint1
+    100034: Flow_circle_1_1
+    100036: Flow_circle_1_1_tangentConstraint1
+    100038: Flow_circle_1_2
+    100040: Flow_circle_1_2_tangentConstraint1
+    100042: Flow_circle_1_3
+    100044: Flow_circle_1_3_tangentConstraint1
+    100046: Flow_circle_1_4
+    100048: Flow_circle_1_4_tangentConstraint1
+    100050: Flow_circle_2_1
+    100052: Flow_circle_2_1_tangentConstraint1
+    100054: Flow_circle_2_2
+    100056: Flow_circle_2_2_tangentConstraint1
+    100058: Flow_circle_2_3
+    100060: Flow_circle_2_3_tangentConstraint1
+    100062: Flow_circle_2_4
+    100064: Flow_circle_2_4_tangentConstraint1
+    100066: Flow_circle_3_1
+    100068: Flow_circle_3_1_tangentConstraint1
+    100070: Flow_circle_3_2
+    100072: Flow_circle_3_2_tangentConstraint1
+    100074: Flow_circle_3_3
+    100076: Flow_circle_3_3_tangentConstraint1
+    100078: Flow_circle_3_4
+    100080: Flow_circle_3_4_tangentConstraint1
+    100082: Flow_circle_4_1
+    100084: Flow_circle_4_1_tangentConstraint1
+    100086: Flow_circle_4_2
+    100088: Flow_circle_4_2_tangentConstraint1
+    100090: Flow_circle_4_3
+    100092: Flow_circle_4_3_tangentConstraint1
+    100094: Flow_circle_4_4
+    100096: Flow_circle_4_4_tangentConstraint1
+    100098: Flow_circles
+    100100: Flow_controlCircles
+    100102: Flow_controlLocators
+    100104: Flow_distanceShell
+    100106: Flow_emitter
+    100108: Flow_goal
+    100110: Flow_locator_0_0
+    100112: Flow_locator_0_1
+    100114: Flow_locator_0_2
+    100116: Flow_locator_0_3
+    100118: Flow_locator_0_4
+    100120: Flow_locator_1_1
+    100122: Flow_locator_1_2
+    100124: Flow_locator_1_3
+    100126: Flow_locator_1_4
+    100128: Flow_locator_2_1
+    100130: Flow_locator_2_2
+    100132: Flow_locator_2_3
+    100134: Flow_locator_2_4
+    100136: Flow_locator_3_1
+    100138: Flow_locator_3_2
+    100140: Flow_locator_3_3
+    100142: Flow_locator_3_4
+    100144: Flow_locator_4_1
+    100146: Flow_locator_4_2
+    100148: Flow_locator_4_3
+    100150: Flow_locator_4_4
+    100152: Flow_locators
+    100154: Flow_scalableCircles
+    100156: Flow_subCircles
+    100158: Flow_subLocators
+    100160: instancer1
+    100162: joint2
+    100164: joint2 1
+    100166: l_fin
+    100168: Locators
+    100170: r_fin
+    100172: root
+    100174: SelectionLocal
+    100176: SelectionLocator
+    100178: sine2Handle
+    100180: spine_curve
+    100182: spine_ik
+    100184: spineA
+    100186: spineB
+    100188: spineC
+    100190: spineD
+    100192: spineE
+    100194: spineF
+    100196: spineG
+    100198: spineH
+    100200: superDuplicatedCurve1
+    400000: Bream_01:Bream_01
+    400002: Circles
+    400004: control_Circle_3
+    400006: control_Circle_3_tangentConstraint1
+    400008: ControlObjects
+    400010: //RootNode
+    400012: Flow
+    400014: Flow_circle_0_0
+    400016: Flow_circle_0_0_tangentConstraint1
+    400018: Flow_circle_0_1
+    400020: Flow_circle_0_1_tangentConstraint1
+    400022: Flow_circle_0_2
+    400024: Flow_circle_0_2_tangentConstraint1
+    400026: Flow_circle_0_3
+    400028: Flow_circle_0_3_tangentConstraint1
+    400030: Flow_circle_0_4
+    400032: Flow_circle_0_4_tangentConstraint1
+    400034: Flow_circle_1_1
+    400036: Flow_circle_1_1_tangentConstraint1
+    400038: Flow_circle_1_2
+    400040: Flow_circle_1_2_tangentConstraint1
+    400042: Flow_circle_1_3
+    400044: Flow_circle_1_3_tangentConstraint1
+    400046: Flow_circle_1_4
+    400048: Flow_circle_1_4_tangentConstraint1
+    400050: Flow_circle_2_1
+    400052: Flow_circle_2_1_tangentConstraint1
+    400054: Flow_circle_2_2
+    400056: Flow_circle_2_2_tangentConstraint1
+    400058: Flow_circle_2_3
+    400060: Flow_circle_2_3_tangentConstraint1
+    400062: Flow_circle_2_4
+    400064: Flow_circle_2_4_tangentConstraint1
+    400066: Flow_circle_3_1
+    400068: Flow_circle_3_1_tangentConstraint1
+    400070: Flow_circle_3_2
+    400072: Flow_circle_3_2_tangentConstraint1
+    400074: Flow_circle_3_3
+    400076: Flow_circle_3_3_tangentConstraint1
+    400078: Flow_circle_3_4
+    400080: Flow_circle_3_4_tangentConstraint1
+    400082: Flow_circle_4_1
+    400084: Flow_circle_4_1_tangentConstraint1
+    400086: Flow_circle_4_2
+    400088: Flow_circle_4_2_tangentConstraint1
+    400090: Flow_circle_4_3
+    400092: Flow_circle_4_3_tangentConstraint1
+    400094: Flow_circle_4_4
+    400096: Flow_circle_4_4_tangentConstraint1
+    400098: Flow_circles
+    400100: Flow_controlCircles
+    400102: Flow_controlLocators
+    400104: Flow_distanceShell
+    400106: Flow_emitter
+    400108: Flow_goal
+    400110: Flow_locator_0_0
+    400112: Flow_locator_0_1
+    400114: Flow_locator_0_2
+    400116: Flow_locator_0_3
+    400118: Flow_locator_0_4
+    400120: Flow_locator_1_1
+    400122: Flow_locator_1_2
+    400124: Flow_locator_1_3
+    400126: Flow_locator_1_4
+    400128: Flow_locator_2_1
+    400130: Flow_locator_2_2
+    400132: Flow_locator_2_3
+    400134: Flow_locator_2_4
+    400136: Flow_locator_3_1
+    400138: Flow_locator_3_2
+    400140: Flow_locator_3_3
+    400142: Flow_locator_3_4
+    400144: Flow_locator_4_1
+    400146: Flow_locator_4_2
+    400148: Flow_locator_4_3
+    400150: Flow_locator_4_4
+    400152: Flow_locators
+    400154: Flow_scalableCircles
+    400156: Flow_subCircles
+    400158: Flow_subLocators
+    400160: instancer1
+    400162: joint2
+    400164: joint2 1
+    400166: l_fin
+    400168: Locators
+    400170: r_fin
+    400172: root
+    400174: SelectionLocal
+    400176: SelectionLocator
+    400178: sine2Handle
+    400180: spine_curve
+    400182: spine_ik
+    400184: spineA
+    400186: spineB
+    400188: spineC
+    400190: spineD
+    400192: spineE
+    400194: spineF
+    400196: spineG
+    400198: spineH
+    400200: superDuplicatedCurve1
+    4300000: Bream_01:Bream_01
+    7400000: Swim
+    9500000: //RootNode
+    13700000: Bream_01:Bream_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Swim
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 142
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bream_01:Bream_01
+        weight: 1
+      - path: Flow
+        weight: 1
+      - path: Flow/ControlObjects
+        weight: 1
+      - path: Flow/ControlObjects/Circles
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_0_0
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_0_0/Flow_circle_0_0_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_0_4
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_0_4/Flow_circle_0_4_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_1_4
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_1_4/Flow_circle_1_4_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_2_4
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_2_4/Flow_circle_2_4_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_3_4
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_3_4/Flow_circle_3_4_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_4_4
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_controlCircles/Flow_circle_4_4/Flow_circle_4_4_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_0_1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_0_1/Flow_circle_0_1_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_0_2
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_0_2/Flow_circle_0_2_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_0_3
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_0_3/Flow_circle_0_3_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_1_1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_1_1/Flow_circle_1_1_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_1_2
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_1_2/Flow_circle_1_2_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_1_3
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_1_3/Flow_circle_1_3_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_2_1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_2_1/Flow_circle_2_1_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_2_2
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_2_2/Flow_circle_2_2_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_2_3
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_2_3/Flow_circle_2_3_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_3_1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_3_1/Flow_circle_3_1_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_3_2
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_3_2/Flow_circle_3_2_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_3_3
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_3_3/Flow_circle_3_3_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_4_1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_4_1/Flow_circle_4_1_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_4_2
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_4_2/Flow_circle_4_2_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_4_3
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_circles/Flow_subCircles/Flow_circle_4_3/Flow_circle_4_3_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_scalableCircles
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_scalableCircles/control_Circle_3
+        weight: 1
+      - path: Flow/ControlObjects/Circles/Flow_scalableCircles/control_Circle_3/control_Circle_3_tangentConstraint1
+        weight: 1
+      - path: Flow/ControlObjects/Flow_distanceShell
+        weight: 1
+      - path: Flow/ControlObjects/Locators
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_goal
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_controlLocators
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_controlLocators/Flow_locator_0_0
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_controlLocators/Flow_locator_0_0/SelectionLocal
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_controlLocators/Flow_locator_0_4
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_controlLocators/Flow_locator_1_4
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_controlLocators/Flow_locator_2_4
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_controlLocators/Flow_locator_3_4
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_controlLocators/Flow_locator_4_4
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_controlLocators/SelectionLocator
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_0_1
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_0_2
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_0_3
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_1_1
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_1_2
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_1_3
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_2_1
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_2_2
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_2_3
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_3_1
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_3_2
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_3_3
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_4_1
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_4_2
+        weight: 1
+      - path: Flow/ControlObjects/Locators/Flow_locators/Flow_subLocators/Flow_locator_4_3
+        weight: 1
+      - path: Flow/ControlObjects/superDuplicatedCurve1
+        weight: 1
+      - path: Flow/Flow_emitter
+        weight: 1
+      - path: instancer1
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/spineA
+        weight: 1
+      - path: root/spineA/spineB
+        weight: 1
+      - path: root/spineA/spineB/l_fin
+        weight: 1
+      - path: root/spineA/spineB/l_fin/joint2
+        weight: 1
+      - path: root/spineA/spineB/r_fin
+        weight: 1
+      - path: root/spineA/spineB/r_fin/joint2 1
+        weight: 1
+      - path: root/spineA/spineB/spineC
+        weight: 1
+      - path: root/spineA/spineB/spineC/spineD
+        weight: 1
+      - path: root/spineA/spineB/spineC/spineD/spineE
+        weight: 1
+      - path: root/spineA/spineB/spineC/spineD/spineE/spineF
+        weight: 1
+      - path: root/spineA/spineB/spineC/spineD/spineE/spineF/spineG
+        weight: 1
+      - path: root/spineA/spineB/spineC/spineD/spineE/spineF/spineG/spineH
+        weight: 1
+      - path: sine2Handle
+        weight: 1
+      - path: spine_curve
+        weight: 1
+      - path: spine_ik
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
