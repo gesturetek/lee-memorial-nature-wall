@@ -1,0 +1,838 @@
+fileFormatVersion: 2
+guid: 4e1869cce29f5494ba61ca8aeab92850
+timeCreated: 1487290250
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: bottom
+    100004: C_Hip_JNT
+    100006: C_Neck_JNT
+    100008: C_SkullTip_JNT
+    100010: C_Spine_JNT
+    100012: C_TailBase_JNT
+    100014: C_TailMid_JNT
+    100016: C_TailTip_JNT
+    100018: CTRL_C_Hips
+    100020: CTRL_C_Neck
+    100022: CTRL_C_Spine
+    100024: CTRL_C_TailBase
+    100026: CTRL_C_TailMid
+    100028: CTRL_L_CollarBone
+    100030: CTRL_L_Elbow
+    100032: CTRL_L_Foot
+    100034: CTRL_L_Shoulder
+    100036: CTRL_L_ToeBack
+    100038: CTRL_L_ToeFront
+    100040: CTRL_L_Wrist
+    100042: CTRL_Master
+    100044: CTRL_Parrot
+    100046: CTRL_R_CollarBone
+    100048: CTRL_R_Elbow
+    100050: CTRL_R_Foot
+    100052: CTRL_R_Shoulder
+    100054: CTRL_R_ToeBack
+    100056: CTRL_R_ToeFront
+    100058: CTRL_R_Wrist
+    100060: curve1
+    100062: Environment_Reference_Empty2:NearShore
+    100064: Environment_Reference_Empty2:RightIsland
+    100066: L_Ankle_JNT
+    100068: L_CollarBone_JNT
+    100070: L_Elbow_JNT
+    100072: L_Foot_ikHandle
+    100074: L_Knee_JNT
+    100076: L_Shoulder_JNT
+    100078: L_Thigh_JNT
+    100080: L_ToeBack_JNT
+    100082: L_ToeBackTip_JNT
+    100084: L_ToeFront_JNT
+    100086: L_ToeFrontTip_JNT
+    100088: L_WingTip_JNT
+    100090: L_Wrist_JNT
+    100092: left
+    100094: //RootNode
+    100096: Parrot_Mesh
+    100098: persp1
+    100100: R_Ankle_JNT
+    100102: R_CollarBone_JNT
+    100104: R_Elbow_JNT
+    100106: R_Foot_ikHandle
+    100108: R_Knee_JNT
+    100110: R_Shoulder_JNT
+    100112: R_Thigh_JNT
+    100114: R_ToeBack_JNT
+    100116: R_ToeBackTip_JNT
+    100118: R_ToeFront_JNT
+    100120: R_ToeFrontTip_JNT
+    100122: R_WingTip_JNT
+    100124: R_Wrist_JNT
+    100126: Wings
+    400000: Body
+    400002: bottom
+    400004: C_Hip_JNT
+    400006: C_Neck_JNT
+    400008: C_SkullTip_JNT
+    400010: C_Spine_JNT
+    400012: C_TailBase_JNT
+    400014: C_TailMid_JNT
+    400016: C_TailTip_JNT
+    400018: CTRL_C_Hips
+    400020: CTRL_C_Neck
+    400022: CTRL_C_Spine
+    400024: CTRL_C_TailBase
+    400026: CTRL_C_TailMid
+    400028: CTRL_L_CollarBone
+    400030: CTRL_L_Elbow
+    400032: CTRL_L_Foot
+    400034: CTRL_L_Shoulder
+    400036: CTRL_L_ToeBack
+    400038: CTRL_L_ToeFront
+    400040: CTRL_L_Wrist
+    400042: CTRL_Master
+    400044: CTRL_Parrot
+    400046: CTRL_R_CollarBone
+    400048: CTRL_R_Elbow
+    400050: CTRL_R_Foot
+    400052: CTRL_R_Shoulder
+    400054: CTRL_R_ToeBack
+    400056: CTRL_R_ToeFront
+    400058: CTRL_R_Wrist
+    400060: curve1
+    400062: Environment_Reference_Empty2:NearShore
+    400064: Environment_Reference_Empty2:RightIsland
+    400066: L_Ankle_JNT
+    400068: L_CollarBone_JNT
+    400070: L_Elbow_JNT
+    400072: L_Foot_ikHandle
+    400074: L_Knee_JNT
+    400076: L_Shoulder_JNT
+    400078: L_Thigh_JNT
+    400080: L_ToeBack_JNT
+    400082: L_ToeBackTip_JNT
+    400084: L_ToeFront_JNT
+    400086: L_ToeFrontTip_JNT
+    400088: L_WingTip_JNT
+    400090: L_Wrist_JNT
+    400092: left
+    400094: //RootNode
+    400096: Parrot_Mesh
+    400098: persp1
+    400100: R_Ankle_JNT
+    400102: R_CollarBone_JNT
+    400104: R_Elbow_JNT
+    400106: R_Foot_ikHandle
+    400108: R_Knee_JNT
+    400110: R_Shoulder_JNT
+    400112: R_Thigh_JNT
+    400114: R_ToeBack_JNT
+    400116: R_ToeBackTip_JNT
+    400118: R_ToeFront_JNT
+    400120: R_ToeFrontTip_JNT
+    400122: R_WingTip_JNT
+    400124: R_Wrist_JNT
+    400126: Wings
+    2300000: Environment_Reference_Empty2:NearShore
+    2300002: Environment_Reference_Empty2:RightIsland
+    3300000: Environment_Reference_Empty2:NearShore
+    3300002: Environment_Reference_Empty2:RightIsland
+    4300000: Body
+    4300002: Wings
+    4300004: Environment_Reference_Empty2:NearShore
+    4300006: Environment_Reference_Empty2:RightIsland
+    7400000: Parrot_Landing
+    7400002: Parrot_Idle
+    7400004: Parrot_Takeoff
+    7400006: Parrot_Flying
+    9500000: //RootNode
+    13700000: Body
+    13700002: Wings
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Parrot_Landing
+      takeName: Parrot_Landing
+      firstFrame: 1
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: CTRL_Parrot
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/C_Neck_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/C_Neck_JNT/C_SkullTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT/L_Wrist_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT/L_Wrist_JNT/L_WingTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT/R_Wrist_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT/R_Wrist_JNT/R_WingTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT/C_TailMid_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT/C_TailMid_JNT/C_TailTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeBack_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeBack_JNT/L_ToeBackTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeFront_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeFront_JNT/L_ToeFrontTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeBack_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeBack_JNT/R_ToeBackTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeFront_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeFront_JNT/R_ToeFrontTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_C_Neck
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder/CTRL_L_Elbow
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder/CTRL_L_Elbow/CTRL_L_Wrist
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder/CTRL_R_Elbow
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder/CTRL_R_Elbow/CTRL_R_Wrist
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_TailBase
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_TailBase/CTRL_C_TailMid
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/CTRL_L_ToeBack
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/CTRL_L_ToeFront
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/L_Foot_ikHandle
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/CTRL_R_ToeBack
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/CTRL_R_ToeFront
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/R_Foot_ikHandle
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: Environment_Reference_Empty2:NearShore
+        weight: 1
+      - path: Environment_Reference_Empty2:RightIsland
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Parrot_Mesh
+        weight: 1
+      - path: Parrot_Mesh/Body
+        weight: 1
+      - path: Parrot_Mesh/Wings
+        weight: 1
+      - path: persp1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Parrot_Idle
+      takeName: Parrot_Idle
+      firstFrame: 29
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: CTRL_Parrot
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/C_Neck_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/C_Neck_JNT/C_SkullTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT/L_Wrist_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT/L_Wrist_JNT/L_WingTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT/R_Wrist_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT/R_Wrist_JNT/R_WingTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT/C_TailMid_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT/C_TailMid_JNT/C_TailTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeBack_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeBack_JNT/L_ToeBackTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeFront_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeFront_JNT/L_ToeFrontTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeBack_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeBack_JNT/R_ToeBackTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeFront_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeFront_JNT/R_ToeFrontTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_C_Neck
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder/CTRL_L_Elbow
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder/CTRL_L_Elbow/CTRL_L_Wrist
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder/CTRL_R_Elbow
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder/CTRL_R_Elbow/CTRL_R_Wrist
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_TailBase
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_TailBase/CTRL_C_TailMid
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/CTRL_L_ToeBack
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/CTRL_L_ToeFront
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/L_Foot_ikHandle
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/CTRL_R_ToeBack
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/CTRL_R_ToeFront
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/R_Foot_ikHandle
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: Environment_Reference_Empty2:NearShore
+        weight: 1
+      - path: Environment_Reference_Empty2:RightIsland
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Parrot_Mesh
+        weight: 1
+      - path: Parrot_Mesh/Body
+        weight: 1
+      - path: Parrot_Mesh/Wings
+        weight: 1
+      - path: persp1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 29
+    - serializedVersion: 16
+      name: Parrot_Takeoff
+      takeName: Parrot_Takeoff
+      firstFrame: 97
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: CTRL_Parrot
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/C_Neck_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/C_Neck_JNT/C_SkullTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT/L_Wrist_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT/L_Wrist_JNT/L_WingTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT/R_Wrist_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT/R_Wrist_JNT/R_WingTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT/C_TailMid_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT/C_TailMid_JNT/C_TailTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeBack_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeBack_JNT/L_ToeBackTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeFront_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeFront_JNT/L_ToeFrontTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeBack_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeBack_JNT/R_ToeBackTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeFront_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeFront_JNT/R_ToeFrontTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_C_Neck
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder/CTRL_L_Elbow
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder/CTRL_L_Elbow/CTRL_L_Wrist
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder/CTRL_R_Elbow
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder/CTRL_R_Elbow/CTRL_R_Wrist
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_TailBase
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_TailBase/CTRL_C_TailMid
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/CTRL_L_ToeBack
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/CTRL_L_ToeFront
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/L_Foot_ikHandle
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/CTRL_R_ToeBack
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/CTRL_R_ToeFront
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/R_Foot_ikHandle
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: Environment_Reference_Empty2:NearShore
+        weight: 1
+      - path: Environment_Reference_Empty2:RightIsland
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Parrot_Mesh
+        weight: 1
+      - path: Parrot_Mesh/Body
+        weight: 1
+      - path: Parrot_Mesh/Wings
+        weight: 1
+      - path: persp1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Parrot_Flying
+      takeName: Parrot_Flying
+      firstFrame: 107
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: CTRL_Parrot
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/C_Neck_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/C_Neck_JNT/C_SkullTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT/L_Wrist_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/L_CollarBone_JNT/L_Shoulder_JNT/L_Elbow_JNT/L_Wrist_JNT/L_WingTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT/R_Wrist_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_Spine_JNT/R_CollarBone_JNT/R_Shoulder_JNT/R_Elbow_JNT/R_Wrist_JNT/R_WingTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT/C_TailMid_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/C_TailBase_JNT/C_TailMid_JNT/C_TailTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeBack_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeBack_JNT/L_ToeBackTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeFront_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/L_Thigh_JNT/L_Knee_JNT/L_Ankle_JNT/L_ToeFront_JNT/L_ToeFrontTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeBack_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeBack_JNT/R_ToeBackTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeFront_JNT
+        weight: 1
+      - path: CTRL_Parrot/C_Hip_JNT/R_Thigh_JNT/R_Knee_JNT/R_Ankle_JNT/R_ToeFront_JNT/R_ToeFrontTip_JNT
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_C_Neck
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder/CTRL_L_Elbow
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_L_CollarBone/CTRL_L_Shoulder/CTRL_L_Elbow/CTRL_L_Wrist
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder/CTRL_R_Elbow
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_Spine/CTRL_R_CollarBone/CTRL_R_Shoulder/CTRL_R_Elbow/CTRL_R_Wrist
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_TailBase
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_C_Hips/CTRL_C_TailBase/CTRL_C_TailMid
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/CTRL_L_ToeBack
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/CTRL_L_ToeFront
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_L_Foot/L_Foot_ikHandle
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/CTRL_R_ToeBack
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/CTRL_R_ToeFront
+        weight: 1
+      - path: CTRL_Parrot/CTRL_Master/CTRL_R_Foot/R_Foot_ikHandle
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: Environment_Reference_Empty2:NearShore
+        weight: 1
+      - path: Environment_Reference_Empty2:RightIsland
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Parrot_Mesh
+        weight: 1
+      - path: Parrot_Mesh/Body
+        weight: 1
+      - path: Parrot_Mesh/Wings
+        weight: 1
+      - path: persp1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

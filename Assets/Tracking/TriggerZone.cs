@@ -3,14 +3,22 @@ using System.Collections;
 
 public class TriggerZone : MonoBehaviour {
 
+    public bool limitTriggerRate = true;
     public float reTriggerDelay = 1;
     public float lastTriggered = 0;
 
 	public virtual void OnTriggerZone(Vector2 gtekTouchPosition)
     {
-        if (Time.time > lastTriggered)
+        if (limitTriggerRate)
         {
-            lastTriggered = Time.time + reTriggerDelay;
+            if (Time.time > lastTriggered)
+            {
+                lastTriggered = Time.time + reTriggerDelay;
+                OnInteract();
+            }
+        }
+        else
+        {
             OnInteract();
         }
     }
